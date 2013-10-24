@@ -1,7 +1,7 @@
 Gravity
 =======
 
-a game of skill OneButtonGame
+a OneButtonGame of skill
 
 ### Sound-Credits
 Background Music – "You Are Lost" by Edward Shallow (found at freemusicarchive.org/music/Edward_Shallow)
