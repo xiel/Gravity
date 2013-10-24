@@ -126,8 +126,12 @@ AudioPlayer soundGravity;
 
 //setup canvas
 void setup(){
-        frame.setBackground( new java.awt.Color(20,20,20) );
-  
+
+	//set frame background
+	// if(frame){
+	// 	frame.setBackground( new java.awt.Color(20,20,20) );
+	// }
+
 	//size(windowWidth, windowHeight); //2D size
 	
 	size(windowWidth, windowHeight, P3D); //3D size
@@ -163,13 +167,13 @@ void setup(){
 	minim = new Minim (this);
 	soundBG = minim.loadFile("Edward_Shallow_-_03_-_You_Are_Lost.mp3");
 	soundBG.play();
-        soundBG.loop(); //loop sound
+		soundBG.loop(); //loop sound
 
 	//gem sound
 	soundGem = minim.loadFile("gem.mp3");
 
-        //gravity sound
-        soundGravity = minim.loadFile("electricity.mp3");
+		//gravity sound
+		soundGravity = minim.loadFile("electricity.mp3");
 
 	lightImg = loadImage("light.png");
 	
@@ -651,12 +655,12 @@ void updateAndDrawPlayer(){
 	}
 
 	if(buttonPressed && !nextLvlPending){
-          if(!soundGravity.isPlaying()){
-             soundGravity.play();
-             soundGravity.loop();
-          }
+		  if(!soundGravity.isPlaying()){
+			 soundGravity.play();
+			 soundGravity.loop();
+		  }
 	} else {
-          soundGravity.pause();
+		  soundGravity.pause();
 	}
 	
 	
@@ -827,8 +831,8 @@ void checkGemCollection(){
 			gem.setBoolean("collected", true);
 			collectedGemsCount++;
 
-                        //play sound
-                        soundGem.play(100);
+						//play sound
+						soundGem.play(100);
 
 			//score gem
 			scoreGemLvl = scoreGemLvl + round(10000/size);

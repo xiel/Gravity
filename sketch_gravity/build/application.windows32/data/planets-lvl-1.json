@@ -1,0 +1,22 @@
+[
+	{
+		"posX": 300,
+		"posY": 300,
+		"radius": 15
+	},
+	{
+		"posX": 1000,
+		"posY": 600,
+		"radius": 25
+	},
+	{
+		"posX": 500,
+		"posY": 650,
+		"radius": 30
+	},
+	{
+		"posX": 800,
+		"posY": 300,
+		"radius": 45
+	}
+]
