@@ -1,7 +1,7 @@
 Gravity
 =======
 
-a OneButtonGame of skill
+A game of skill - written in Processing/Java. Played using only one button.
 
 <img src="https://incom.org/action/open-image/136166/post/136166.png" alt=""/>
 
